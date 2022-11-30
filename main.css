@@ -4,8 +4,13 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #1a1a1a;
+}
+
 #videos {
   display: grid;
+  text-align: center;
   grid-template-columns: 1fr;
   height: 100vh;
   gap: 2em;
@@ -14,8 +19,8 @@
 
 .video-player {
   background-color: black;
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: 100vh;
   object-fit: cover;
 }
 
@@ -27,6 +32,8 @@
 
 #user-2 {
   display: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .smallFrame {
